@@ -1,13 +1,13 @@
 # clusterfailover
 
-NOMES SERVIDORES:
-HOST1_CLT2
+NOMES SERVIDORES:  
+HOST1_CLT2  
 HOST2_CLT2
 
 RODAR COMANDOS:
 
-Install-WindowsFeature -Name Hyper-V-Tools -IncludeAllSubFeature
-Install-WindowsFeature -Name RSAT-Hyper-V-Tools -IncludeAllSubFeature
+Install-WindowsFeature -Name Hyper-V-Tools -IncludeAllSubFeature  
+Install-WindowsFeature -Name RSAT-Hyper-V-Tools -IncludeAllSubFeature  
 
 instalar role de failovercluster
 instalar iscsi
